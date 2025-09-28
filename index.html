@@ -4,69 +4,118 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="./assets/img/logo.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Estúdio Eco</title>
   </head>
   <body>
-    <main>
-        <header>
-            <img
-              src="./assets/img/logo.png"
-              alt="Logo do Estúdio Eco - Círculos com uma folha verde lateral e o nome Estúdio Eco abaixo"
-            />
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="./aboutUs.html">Sobre</a></li>
-          <li><a href="./contact.html">Contato</a></li>
-        </ul>
-      </nav>
+    <main class="main-home">
+      <header>
+        <a href="#">
+        <img
+          src="./assets/img/logo.png"
+          alt="Logo do Estúdio Eco - Círculos com uma folha verde lateral e o nome Estúdio Eco abaixo"
+        />
+        </a>
+        <nav>
+          <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="./aboutUs.html">Sobre</a></li>
+            <li><a href="./contactUs.html">Contato</a></li>
+          </ul>
+        </nav>
       </header>
-      <section class="hero">
-        <div class="banner-container">
-          <img src="./assets/img/BannerHero.jpg" alt="" />
-          <div>
-            <h1>Bem-vindo ao Estúdio Eco</h1>
+      <section>
+        <input type="radio" id="banner1" name="banner" checked />
+        <input type="radio" id="banner2" name="banner" />
+        <input type="radio" id="banner3" name="banner" />
+        <label for="banner1" class="radio-label"></label>
+        <label for="banner2" class="radio-label"></label>
+        <label for="banner3" class="radio-label"></label>
+
+        <div class="banner-hero">
+          <div class="text-hero">
+            <h1>Estúdio Eco</h1>
             <p>
               Seu destino para gravação de podcasts e vídeos de alta qualidade.
             </p>
-            <a href="./aboutUs.html" class="btn">Explore Nossos Serviços</a>
           </div>
         </div>
       </section>
       <section class="services">
         <h2>Nossos Serviços</h2>
-        <div>
-          <div class="service-item">Gravação Assistida</div>
-          <div class="service-item">Edição e Mixagem</div>
-          <div class="service-item">Consultoria e Publicação</div>
+
+        <div class="services-container">
+          <div>
+            <h3>Gravação Assistida</h3>
+            <p>
+              Foque totalmente no seu conteúdo e deixe a parte técnica conosco.
+              Em nosso estúdio, um profissional irá configurar os microfones,
+              ajustar os níveis de áudio e garantir que sua gravação saia com a
+              máxima qualidade e sem complicações. Sua única preocupação é dar o
+              seu melhor.
+            </p>
+          </div>
+          <div>
+            <h3>Edição e Mixagem</h3>
+            <p>
+              Transformamos seu áudio bruto em um episódio limpo, claro e
+              agradável de ouvir. Removemos ruídos, pausas desnecessárias,
+              equilibramos as vozes e adicionamos suas vinhetas e trilhas
+              sonoras para criar um produto final profissional que cativa seus
+              ouvintes do início ao fim.
+            </p>
+          </div>
+          <div>
+            <h3>Consultoria e Publicação</h3>
+            <p>
+              Tem uma ótima ideia, mas não sabe por onde começar? Oferecemos a
+              orientação que você precisa, desde a escolha do formato ideal até
+              as estratégias de lançamento. Além disso, cuidamos do processo de
+              publicação do seu podcast nas principais plataformas, como Spotify
+              e Apple Podcasts.
+            </p>
+          </div>
         </div>
       </section>
       <section class="testimonials">
-        <h2>Depoimentos</h2>
-        <div class="testimonial-joao">
-          <blockquote>
-            "O Estúdio Eco transformou meu podcast! A qualidade de som é
-            incrível e a equipe é super profissional."
-          </blockquote>
-          <span>- João Silva</span>
+        <div class="testimonial-container">
+          <img
+            src="./assets/img/testimonialUserJoao.png"
+            alt="Foto de Maria Oliveira no Estúdio Eco"
+          />
+          <div>
+            <blockquote>
+              "O Estúdio Eco transformou meu podcast! A qualidade de som é
+              incrível e a equipe é super profissional."
+            </blockquote>
+            <span>João Silva</span>
+          </div>
+          <hr />
+          <div>
+            <blockquote>
+              "Gravar meus vídeos aqui foi uma experiência fantástica. O
+              ambiente é acolhedor e a equipe me ajudou em cada passo do
+              processo."
+            </blockquote>
+            <span>Maria Oliveira</span>
+          </div>
+          <img
+            src="./assets/img/testimonialUser2.png"
+            alt="Foto de Maria Oliveira no Estúdio Eco"
+          />
         </div>
-        <img src="./assets/img/testimonialUser.jpg" alt="Foto de Maria Oliveira no Estúdio Eco" />
-        <div class="testimonial-maria">
-          <blockquote>
-            "Gravar meus vídeos aqui foi uma experiência fantástica. O
-            ambiente é acolhedor e a equipe me ajudou em cada passo do
-            processo."
-          </blockquote>
-          <span>- Maria Oliveira</span>
-          <img src="./assets/img/testimonialUser2.png" alt="Foto de Maria Oliveira no Estúdio Eco" />
-        </div>
+      </section>
     </main>
     <footer>
       <p>&copy; 2024 Estúdio Eco. Todos os direitos reservados.</p>
       <div class="social-media">
-        <a href="#"><img src="./assets/img/facebook-icon.png" alt="Facebook" /></a>
-        <a href="#"><img src="./assets/img/instagram-icon.png" alt="Instagram" /></a>
-        <a href="#"><img src="./assets/img/youtube-icon.png" alt="YouTube" /></a>
+        <a href="#"
+          ><img src="./assets/img/facebook_icon.png " alt="Facebook"
+        /></a>
+        <a href="#"
+          ><img src="./assets/img/Instagram_icon.png " alt="Instagram"
+        /></a>
+        <a href="#"><img src="./assets/img/youtube.png" alt="YouTube" /></a>
       </div>
     </footer>
   </body>
