@@ -4,17 +4,16 @@
 :root {
   --primary-color: #2f5249;
   --primary-color-dark: #2f5249;
-  --bg-primary-color-light: #8bc34a;
   --secondary-color: #97b067;
   --tertiary-color: #e3de61;
-
+  
   --text-color: #333333;
   --text-light: #555555;
   --text-dark: #111111;
-
+  
+  --bg-primary-color-light: #8bc34a;
   --background-dark: #2f5249;
   --background-light: #f7f7f7;
-  --background-white: #ffffff;
 
   --accent-color: #e0e0e0;
 }
@@ -32,10 +31,8 @@ header {
   justify-content: space-between;
   background-color: var(--bg-primary-color-light);
   padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
-  /* left: 0; */
   width: 100%;
   z-index: 1000;
 }
@@ -60,6 +57,7 @@ header img {
   text-decoration: none;
   color: var(--primary-color-dark);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .breadcrumb li a:hover {
@@ -187,7 +185,6 @@ input[type="radio"] {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   background-color: var(--secondary-color);
   padding: 30px;
   width: 90%;
@@ -343,6 +340,7 @@ footer img {
 
 .ourPhilosophy h1 {
   margin-bottom: 20px;
+  font-family: "Playfair Display SC", serif;
 }
 
 .ourAmbients {
@@ -355,6 +353,7 @@ footer img {
 
 .ourAmbients h2 {
   margin: 20px 0;
+  font-family: "Playfair Display SC", serif;
 }
 
 .ambiental {
@@ -362,6 +361,10 @@ footer img {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.ambiental h3 {
+  font-family: "Playfair Display SC", serif;
 }
 
 .ambiental img {
@@ -393,7 +396,24 @@ footer img {
 }
 
 .ambiental li {
-  list-style-type: none;
+  list-style-position: inside
+}
+
+button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 38px;
+  margin-right: 5px;;
 }
 
 .prices {
@@ -411,6 +431,10 @@ footer img {
   justify-content: space-evenly;
 }
 
+.prices h2 {
+  font-family: "Playfair Display SC", serif;
+}
+
 table {
   width: 40%;
   border-collapse: collapse;
@@ -419,6 +443,7 @@ table {
 
 th {
   padding-bottom: 10px;
+  font-family: "Playfair Display SC", serif;
 }
 
 td {
@@ -441,6 +466,7 @@ td {
 
 .contact-info h1 {
   text-align: center;
+  font-family: "Playfair Display SC", serif;
 }
 
 .contact-info li {
@@ -470,8 +496,12 @@ td {
   max-width: 90%;
 }
 
+.location h2 {
+  font-family: "Playfair Display SC", serif;
+}
+
 .location iframe {
-  max-width: 90%;
+  width: 90%;
   border-radius: 12px;
   margin-top: 20px;
 }
