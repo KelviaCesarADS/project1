@@ -1,5 +1,5 @@
 # PROJETO 🚀
-#### projeto avaliativo para a disciplina de Introdução a Computação.
+#### projeto feito por Kelvia Santos avaliativo para a disciplina de Introdução a Computação.
 
 # Check-list ✅
 
