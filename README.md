@@ -9,12 +9,16 @@
 - [x]  **Tabela** simples presente.
 - [x]  Paleta no `:root` (variáveis CSS).
 - [x]  Google Fonts.
-- [x]  Imagens otimizadas com `alt` descritivo.
+- [x]  Imagens otimizadas (com os tamanhos já com os que deve apareer no site (esceto a altura das imagens no hero) e com `alt` descritivo em todas as imagens e icones.
 - [x]  README com papéis, paleta, fontes e decisões.
 - [x]  Site no ar.
 - [x]  Vídeo de demonstração.
 
-- [x]  responsivo.
+
+https://github.com/user-attachments/assets/7f6181a8-8e3e-4fd1-8b46-626d405706dc
+
+
+- [x]  Páginas que se adaptam aos diferentes tamanhos das telas.
 
 ## 🎨 Paleta de Cores
 
