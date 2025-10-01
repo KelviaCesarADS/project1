@@ -40,3 +40,10 @@ As fontes foram selecionadas para criar uma hierarquia clara e garantir a legibi
 | [Montserrat](https://fonts.google.com/specimen/Montserrat) | `Montserrat`, sans-serif | **Textos de Conteúdo** (Ex: Descrição dos serviços, textos informativos) |
 | [Lora](https://fonts.google.com/specimen/Lora) | `Lora`, serif | **Fonte Padrão** (Aplicada a todo o corpo do documento `*`) |
 | [Bungee](https://fonts.google.com/specimen/Bungee) | `Bungee`, cursive | **Uso Especial** (Disponível para destaque) |
+
+### 📖 Sites utilizados
+* icones: https://commons.wikimedia.org/wiki/Main_Page, https://www.flaticon.com/
+* Geracao de imagens e conteudo de textos: https://www.lovart.ai/ e https://gemini.google.com/app
+* duvidas código: https://www.w3schools.com/html/html_favicon.asp, https://www.visualdicas.com.br/programacao/css/99-como-colocar-imagens-nos-marcadores-de-uma-lista-htm-nao-ordenada-com-css, 
+* redimencionar e otimizar imagens: https://www.iloveimg.com/pt/redimensionar-imagem e https://www.edivaldobrito.com.br/ferramenta-de-otimizacao-de-imagens/
+
